@@ -10,7 +10,7 @@ intents.message_content = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 # Variables globales
-uvb_stream_url = 'hHOOHAA4IT.mp3'  # URL du stream UVB-76
+uvb_stream_url = 'https://github.com/Discode-Studio/The-Wheel_Night/raw/refs/heads/main/HOOHAA4IT.mp3'  # URL du stream UVB-76
 
 # Fonction pour jouer le stream UVB-76
 async def play_uvb_stream(vc):
